@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, button, input {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    border-radius: 4px;
+    background-color: #333;
+    box-shadow: #222 2px 2px 6px;
+}
+
+main h1 {
+    margin: 4px 0;
+}
+
+form .linha-2 {
+    display: flex;
+    margin: 4px;
+    justify-content: space-between;
+    width: 100%;
+
+    /* background-color: #687fff; */
+}
+
+form .linha-2 div {
+    margin: 8px;
+    padding: 8px;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: #a4ff68; */
+}
+
+form .linha-1 {
+    display: flex;
+    margin: 4px;
+    width: 100%;
+
+    /* background-color: #687fff; */
+}
+
+form .linha-1 div {
+    margin: 8px;
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+form .linha-1 #termos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+form .linha-1 #termos label a {
+    color: deeppink;
+}
+
+form .linha-1 div button {
+    background-image: linear-gradient(to bottom right, rgb(134, 24, 83), deeppink);
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff !important;
+    padding: 6px;
+}
+
+form .linha-1 div button:hover {
+    box-shadow: 4px 4px 0 #ffa8d6;
+}
+
+form .linha-1 div button:active {
+    background-color: rgb(189, 0, 101);
+}
+
+form div label,
+form div input,
+form .linha-1 div button {
+    color: #fff;
+    font-size: 18px;
+    outline: 0;
+}
+
+form div input {
+    color: #333;
+}
+
+form div input:focus {
+    background-color: #ffb9e0;
+}
+
+form div input {
+    border: 0;
+    padding: 6px;
+    border-radius: 4px;
+}
